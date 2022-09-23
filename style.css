@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -63,7 +67,7 @@ body {
 .image-bailey {
  /* border: 3px solid red; */
  margin-top: 25px;
- width: 500px;
+ width: 30%;
 }
 
 h2 {
@@ -91,26 +95,96 @@ line-height: 1.5;
 
 .nature-container {
     display: flex;
-    border: 3px solid purple;
+    /* border: 3px solid purple; */
     align-items: center;
     flex-direction: column;
 }
 
 .nature {
-    border: 3px solid black;
+    /* border: 3px solid black; */
     width: 200px;
     margin-top: 100px;
 }
 
-.nature-photo-container {
+.row {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    border: 3px solid black;
+    padding: 0 4px;
 }
 
-.nature-images {
-    border: 3px solid black;
+.column {
+    flex: 25%;
+    max-width: 25%;
     padding: 0 4px;
-    /* height: 700px; */
 }
+
+.column img {                       /*This container  is for the nature photos */
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.city-container {
+    display: flex;
+    /* border: 3px solid purple; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.row-city {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column-city {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column-city img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+    .about-me-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-links li a {
+        padding: .5rem;
+    }
+    .image-bailey {
+        width: 50%;
+    }
+    .article-bailey {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .column-city {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .column-city {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
