@@ -186,6 +186,13 @@ input[type=submit] :hover {
     /* border: 3px solid black; */
 }
 
+footer {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 30px;
+}
+
 
 @media (max-width: 800px) {
     .column {
@@ -207,12 +214,12 @@ input[type=submit] :hover {
     }
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .column {
         flex: 100%;
         max-width: 100%;
     }
-}
+} */
 
 @media (max-width: 800px) {
     .column-city {
