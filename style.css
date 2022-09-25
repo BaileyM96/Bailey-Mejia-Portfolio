@@ -214,12 +214,12 @@ footer {
     }
 }
 
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
     .column {
         flex: 100%;
         max-width: 100%;
     }
-} */
+}
 
 @media (max-width: 800px) {
     .column-city {
@@ -234,4 +234,5 @@ footer {
         max-width: 100%;
     }
 }
+
 
