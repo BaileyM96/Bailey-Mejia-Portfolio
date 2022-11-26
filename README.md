@@ -10,8 +10,11 @@ I included media screens to make the site responsive for mobile viewing.
 
 ## Link to Website
 
+https://baileym96.github.io/Bailey-Mejia-Portfolio/#About
+
 ## License 
 
 N/A
 
 ## Screenshots 
+![Bailey-portfolio](https://user-images.githubusercontent.com/108101478/192166094-514baf5c-ee10-4114-b888-eea9a3a386e0.JPG)
