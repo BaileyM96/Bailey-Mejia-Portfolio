@@ -193,6 +193,27 @@ footer {
     margin-left: 30px;
 }
 
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.fa-brands{
+    display: flex;
+    justify-content: end;
+    padding-right: 5%;
+   text-decoration: none;
+
+}
+
+.nope {
+    display: flex;
+    justify-content: end;
+    padding-right: 5%;
+}
+ 
 
 @media (max-width: 800px) {
     .column {
